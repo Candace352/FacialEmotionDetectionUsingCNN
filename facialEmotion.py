@@ -77,13 +77,13 @@ def detect_emotions_video(video_path, emotion_model, max_frames=5):
 # Streamlit app
 def main():
     # Set page config and styling
-    st.set_page_config(page_title="Emotion Detection App", page_icon=":smiley:", layout="wide", initial_sidebar_state="collapsed")
+    st.set_page_config(page_title="Facial Emotion Detection App", page_icon=":smiley:", layout="wide", initial_sidebar_state="collapsed")
     
     # Load emotion detection model
     emotion_model = load_emotion_model('emotion_model.h5')
 
     # Add title and introduction
-    st.title('🎭 Emotion Detection App')
+    st.title('🎭 Facial Emotion Detection App')
     st.write('Welcome to the Emotion Detection Application! This app allows you to upload images and videos to detect emotions. '
             'Simply select the file type you want to analyze and let the magic begin! 😊')
 
