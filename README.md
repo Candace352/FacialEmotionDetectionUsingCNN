@@ -28,6 +28,10 @@ Welcome to the Emotion Detection Application! This app allows you to upload imag
 
 2. The application will open in your default web browser. You can then upload an image or video file to analyze the emotions detected.
 
+## The Streamlit Application
+https://facialemotiondetectionusingcnn.streamlit.app/
+
+
 ## Contributors 👨‍💻👩‍💻
 
 - Candace Tariro Hunzwi
