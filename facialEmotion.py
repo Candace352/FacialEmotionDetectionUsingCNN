@@ -90,6 +90,8 @@ def main():
     st.write('The available emotions that can be detected are: angry, disgusted, fearful, happy, neutral, sad, and surprised. '
             'Upload your file and explore the emotions within!')
 
+    st.write('Please note as the application is still in process, we advise you to use pictures that are a bit closeup. Thank you for understanding!')
+
     st.write("Let's dive in and explore the fascinating world of emotions together! 🚀")
 
     # Add file type selection radio button
