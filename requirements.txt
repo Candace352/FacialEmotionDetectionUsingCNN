@@ -1,4 +1,4 @@
 streamlit
-opencv-python==4.*
+opencv-python-headless
 numpy
 tensorflow
